@@ -1,21 +1,22 @@
 {
-  "name": "react_starter",
+  "name": "Pot-of-Cha",
   "version": "1.0.0",
-  "description": "Starting setup for react redux project",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node dev_server.js",
     "bundle": "webpack --config webpack.prod.js --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Scott Bowler",
+  "author": "William Cheng",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Learning-Fuze/react_starter.git"
+    "url": "https://github.com/burninggun/Pot-Of-Cha.git"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.1.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-redux": "^5.0.7",

@@ -1,12 +1,13 @@
 import React from 'react';
-import '../assets/css/app.css';
-import logo from '../assets/images/logo.svg';
 
 const App = () => (
     <div>
-        <div className="app">
-            <img src={logo} className="logo rotate"/>
-            <h1>Welcome to React</h1>
+        <div className="navbar navbar-expand navbar-dark bg-dark">
+            <a href="#" className="navbar-brand">Pot Of Cha</a>
+            <a href="#" className="nav-item nav-link">Menu</a>
+        </div>
+        <div className="container-fluid" >
+
         </div>
     </div>
 );
