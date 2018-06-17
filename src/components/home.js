@@ -1,8 +1,9 @@
 import React from 'react';
 import '../assets/css/home.css'
+import { Link } from 'react-router-dom';
 
 export default () => {
-
+    
     return(
         <div className="">
             <div className="jumbotron" >
@@ -13,12 +14,20 @@ export default () => {
             </div>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-3 bg-dark square">
-                        <h3 className="text-white text-center" >Check out our locations</h3>
-                    </div>
-                    <div className="col-3 bg-primary square"></div>
-                    <div className="col-3 bg-info square"></div>
-                    <div className="col-3 bg-danger square"></div>
+                    <Link to="/menu" className="col-3 bg-primary square">
+                        <div>
+                            <h3 className="text-white text-center">Check Out Our Menu</h3>
+                        </div>
+                    </Link>
+                    <Link to="/locations" className="col-3 bg-dark square">
+                        <h3 className="text-white text-center" >Find a Location</h3>
+                    </Link>
+                    <Link to="social" className="col-3 bg-info square">
+                        <h3 className="text-white text-center">Follow Us!</h3>
+                    </Link>
+                    <Link to="/contact-us" className="col-3 bg-danger square">
+                        <h3 className="text-white text-center">Any Questions?</h3>
+                    </Link>
 
                 </div>
             </div>
