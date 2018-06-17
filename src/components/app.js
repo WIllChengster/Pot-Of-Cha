@@ -1,14 +1,22 @@
 import React from 'react';
+import "../assets/css/hero.css";
+import { Route } from "react-router-dom";
+
+import Navbar from './navbar';
+import Home from './home';
+import Menu from './menu';
+import SocialMedia from './socialMedia';
+import Locations from './locations';
+import ContactUs from './contactUs';
 
 const App = () => (
     <div>
-        <div className="navbar navbar-expand navbar-dark bg-dark">
-            <a href="#" className="navbar-brand">Pot Of Cha</a>
-            <a href="#" className="nav-item nav-link">Menu</a>
-        </div>
-        <div className="container-fluid" >
-
-        </div>
+        <Navbar/>
+        <Route exact path="/" component={Home} />
+        <Route path="/menu" component={Menu} />
+        <Route path="/social" component={SocialMedia} />
+        <Route path="/locations" component={Locations} />
+        <Route path="/contact-us" component={ContactUs} />
     </div>
 );
 
