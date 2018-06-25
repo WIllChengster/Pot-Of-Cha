@@ -10,6 +10,6 @@
     text-decoration: none;
 }
 
-.square h3{
+.square *{
     line-height: 25vw;
 }
