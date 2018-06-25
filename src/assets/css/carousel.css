@@ -5,12 +5,14 @@
 }
 
 .content{
+    position:absolute;
     background-color: yellow;
     height: 100%;
     width: 100%;
 }
 .content2{
-    background-color: yellow;
+    position:absolute;
+    background-color: green;
     height: 100%;
     width: 100%;
 }
