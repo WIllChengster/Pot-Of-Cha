@@ -8,8 +8,6 @@ export default () => {
     const navbarStyle = {
         backgroundColor: "#A28497",
         fontFamily: "Pacifico, cursive"
-
-
     }
     const logoStyle={
         width: "20vw"

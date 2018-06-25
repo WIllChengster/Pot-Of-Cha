@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/css/home.css';
 import { Link } from 'react-router-dom';
-
+import Carousel from './carousel';
 
 export default () => {
     
@@ -12,14 +12,11 @@ export default () => {
     const kaki = {backgroundColor : "#DDE392"}
 
     return(
-        <div className="">
-            <div className="jumbotron" >
-                <div className="container">
-                    <h1 className="display-4">Pot of Cha</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ipsa quis et voluptatem repellendus quaerat! Nulla temporibus dolor, excepturi quos, molestiae ut cum ratione saepe esse omnis ullam obcaecati veniam?</p>
-                </div>
-            </div>
-            <div className="container">
+        <div>
+
+            <Carousel/>
+
+            <div className="container-fluid">
                 <div className="row">
                     <Link style={green} to="/menu" className="col-3 square">
                         <div>

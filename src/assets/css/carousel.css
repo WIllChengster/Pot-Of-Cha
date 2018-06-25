@@ -1,0 +1,16 @@
+.slider{
+    height: 30vw;
+    background-color: #d3d3d3;
+    position: relative;
+}
+
+.content{
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+}
+.content2{
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+}
