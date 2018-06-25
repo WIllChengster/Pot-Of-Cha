@@ -28,8 +28,8 @@ export default () => {
                     <Link to="/contact-us" className="col-3 bg-danger square">
                         <h3 className="text-white text-center">Any Questions?</h3>
                     </Link>
-
                 </div>
+                
             </div>
 
         </div>
