@@ -1,9 +1,16 @@
 import React from 'react';
-import '../assets/css/home.css'
+import '../assets/css/home.css';
 import { Link } from 'react-router-dom';
+
 
 export default () => {
     
+    const green = { backgroundColor : "#92C44B"};
+    const gray = {backgroundColor : "#646F58"};
+    const brownish = {backgroundColor : "#C6AE82"};
+    const orange = {backgroundColor : "#F4D06F"};
+    const kaki = {backgroundColor : "#DDE392"}
+
     return(
         <div className="">
             <div className="jumbotron" >
@@ -14,18 +21,18 @@ export default () => {
             </div>
             <div className="container-fluid">
                 <div className="row">
-                    <Link to="/menu" className="col-3 bg-primary square">
+                    <Link style={green} to="/menu" className="col-3 square">
                         <div>
                             <h3 className="text-white text-center">Check Out Our Menu</h3>
                         </div>
                     </Link>
-                    <Link to="/locations" className="col-3 bg-dark square">
+                    <Link style={kaki} to="/locations" className="col-3 square">
                         <h3 className="text-white text-center" >Find a Location</h3>
                     </Link>
-                    <Link to="social" className="col-3 bg-info square">
+                    <Link style={orange} to="social" className="col-3 square">
                         <h3 className="text-white text-center">Follow Us!</h3>
                     </Link>
-                    <Link to="/contact-us" className="col-3 bg-danger square">
+                    <Link style={green} to="/contact-us" className="col-3 square">
                         <h3 className="text-white text-center">Any Questions?</h3>
                     </Link>
                 </div>
