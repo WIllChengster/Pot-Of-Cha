@@ -1,0 +1,15 @@
+.instagram{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 50vh;
+    overflow: auto;
+}
+
+.post{
+    width: 30vw;
+    height: 30vw;
+    background-color: gray;
+    display: inline-block;
+    margin: 5px;
+}
