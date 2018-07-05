@@ -2,13 +2,14 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 50vh;
+    height: 35vh;
     overflow: auto;
+    background-color: lightgray;
 }
 
 .post{
-    width: 30vw;
-    height: 30vw;
+    width: 25vw;
+    height: 25vw;
     background-color: gray;
     display: inline-block;
     margin: 5px;

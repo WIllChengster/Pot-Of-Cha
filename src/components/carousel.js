@@ -90,8 +90,6 @@ class Carousel extends Component{
     }
 
     render(){
-        console.log(this.state);
-
         const example = (
             <div className="content" >
                 <h1 className="text-center">Your picture here!</h1>
