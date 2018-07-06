@@ -1,6 +1,6 @@
 .nav-item:hover{
     color: rgb(146, 196, 75) !important;
-    transform: scale(1.35);
+    transform: scale(1.10);
 }
 
 .navbar *{

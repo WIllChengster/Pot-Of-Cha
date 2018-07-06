@@ -2,7 +2,7 @@
   "name": "poc",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "npm-run-all --parallel dev:*",
     "dev:server": "nodemon app.js",
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/burninggun/Pot-Of-Cha#readme",
   "dependencies": {
+    "axios": "^0.18.0",
+    "circular-json": "^0.5.5",
     "express": "^4.16.3",
     "nodemon": "^1.17.5",
     "npm-run-all": "^4.1.3"

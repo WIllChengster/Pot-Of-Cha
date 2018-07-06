@@ -6,11 +6,11 @@ class SocialMedia extends Component{
         super(props)
     }
 
-    axiosInstagram(){
-        axios.get("https://api.instagram.com/v1/tags/badminton/media/recent?access_token=243127184.3ef09ec.f6288de486a048a2a5a2b22812318591").then(res=>{
-            console.log(res);
-        })
-    }
+    // axiosInstagram(){
+    //     axios.get("https://api.instagram.com/v1/tags/badminton/media/recent?access_token=243127184.3ef09ec.f6288de486a048a2a5a2b22812318591").then(res=>{
+    //         console.log(res);
+    //     })
+    // }
 
     render(){
         this.axiosInstagram();

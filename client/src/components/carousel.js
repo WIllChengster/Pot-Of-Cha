@@ -99,10 +99,10 @@ class Carousel extends Component{
         return(
             <div className="slider">
                 <div style={this.state.slide1.style} className="content" >
-                    <h1 className="text-center">Your picture here!</h1>
+                    {/* <h1 className="text-center">Your picture here!</h1> */}
                 </div>
                 <div style={this.state.slide2.style} className="content2" >
-                    <h1 className="text-center">Your picture here!</h1>
+                    {/* <h1 className="text-center">Your picture here!</h1> */}
                 </div>
 
             </div>
