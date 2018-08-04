@@ -18,11 +18,11 @@ export default () => {
             <style>
                 @import url('https://fonts.googleapis.com/css?family=Pacifico');
             </style>
-            <Link to="/menu" className="nav-item nav-link h4 text-white">Menu</Link>
-            <Link to="/social" className="nav-item nav-link h4 text-white">Social Media</Link>
             <Link to="/" className="navbar-brand active">
                 <img style={logoStyle} src={logo} alt="logo"/>
             </Link>
+            <Link to="/menu" className="nav-item nav-link h4 text-white">Menu</Link>
+            <Link to="/social" className="nav-item nav-link h4 text-white">Social Media</Link>
             <Link to="/locations" className="nav-item nav-link h4 text-white" >Locations</Link>
             <Link to="/contact-us" className="nav-item nav-link h4 text-white">Contact Us</Link>
         </div>

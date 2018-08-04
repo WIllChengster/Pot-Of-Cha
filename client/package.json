@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "proxy":{
+  "proxy": {
     "/api/*": {
       "target": "http://localhost:5000"
     }

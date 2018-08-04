@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from 'axios';
 import "../assets/css/social.css"
+
 class SocialMedia extends Component{
     constructor(props){
         super(props)
@@ -13,7 +14,6 @@ class SocialMedia extends Component{
     // }
 
     render(){
-        this.axiosInstagram();
         return(
             <div className="SocialMedia">
                 <h1>Social Media</h1>
