@@ -3,6 +3,9 @@ import '../assets/css/home.css';
 import { Link } from 'react-router-dom';
 import Carousel from './carousel';
 import logoSub from '../assets/images/logoSub.png';
+import Navbar from './navbar'
+import Hero from './hero'
+
 export default () => {
 
     const green = { backgroundColor: "#92C44B" };
@@ -18,17 +21,9 @@ export default () => {
 
     return (
         <div>
-            <Carousel />
+            <Hero/>
             <div className="container">
-                <div className="card my-2">
-                    <div className="card-header text-center displayFont">News</div>
-                    <div className="card-body">
-                        <h5 className="card-title">Grand Opening!</h5>
-                        <img style={newsPic} src={logoSub} alt="logo" />
-                        <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique unde nisi libero aut eligendi fugiat laboriosam ad ex aspernatur ut, excepturi deleniti autem obcaecati velit magnam commodi cum, totam animi!</p>
-
-                    </div>
-                </div>
+                
             </div>
             <div className="container-fluid">
                 <div className="row">

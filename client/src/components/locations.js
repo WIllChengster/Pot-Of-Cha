@@ -28,8 +28,6 @@ class Location extends Component{
         })
     }
 
-    
-
     render(){
         const cardWidth = {width: "18rem"}
         const locations = this.state.locations.map((item, i) => {
