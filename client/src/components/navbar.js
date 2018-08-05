@@ -10,7 +10,7 @@ export default () => {
         fontFamily: "Pacifico, cursive"
     }
     const logoStyle={
-        width: "20vw"
+        width: "125px"
     }
 
     return(
@@ -19,7 +19,7 @@ export default () => {
                 @import url('https://fonts.googleapis.com/css?family=Pacifico');
             </style>
             <Link to="/" className="navbar-brand active">
-                <img style={logoStyle} src={logo} alt="logo"/>
+                <img id="brandLogo" style={logoStyle} src={logo} alt="logo"/>
             </Link>
             <Link to="/menu" className="nav-item nav-link h5 ">Menu</Link>
             <Link to="/social" className="nav-item nav-link h5 ">Social Media</Link>

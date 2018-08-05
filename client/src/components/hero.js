@@ -11,28 +11,22 @@ class Hero extends Component{
             
         }
     }
-    handleLoad(){
-
+    componentDidMount(){
         const navbarHeight = document.getElementsByClassName("navbar")[0].clientHeight;
-        this.setState({
-            navbarHeight
-        });
-    }
-    componentWillUpdate(){
-        
-        const navbarHeight = document.getElementsByClassName("navbar")[0].clientHeight;
-        console.log(this.state.navbarHeight)
         if(this.state.navbarHeight != navbarHeight){
             this.setState({
                 navbarHeight
             });
         }
-
+        
     }
 
     render(){
+        console.log(this.state.navbarHeight);
+        const fullScreen = {height: `calc(100vh - ${this.state.navbarHeight}px)`}
+        console.log(fullScreen);
         return(
-            <div className="hero">
+            <div style={fullScreen} className="hero">
                 <div className="innerHero"></div>
             </div>
         )
